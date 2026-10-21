@@ -1,0 +1,2 @@
+// Stand-in for the `server-only` package during tests (see vitest.config.mts).
+export {};

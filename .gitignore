@@ -1,0 +1,24 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Local secrets
+.env
+.env*.local
+
+# Local invoice storage (runtime data, may contain customer details)
+data/*.json
+
+# Client brief — keep out of the public repo
+*.pdf
+
+.DS_Store
+npm-debug.log*
+
+# Local editor/agent config
+.claude/
+
+# Private notes for recording the walkthrough
+VIDEO_SCRIPT.md
